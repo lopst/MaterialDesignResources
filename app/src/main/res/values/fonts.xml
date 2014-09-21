@@ -1,0 +1,99 @@
+<!--
+  ~ Copyright 2014 yuki312 All Right Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!--
+  Copyright 2014 yuki312 All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <!--
+      Material Design Typography Scale
+      Reference from http://www.google.com/design/spec/style/typography.html#typography-standard-styles
+      -->
+    <dimen name="Material.Text.Display4.Size">112sp</dimen>
+    <dimen name="Material.Text.Display3.Size">56dp</dimen>
+    <dimen name="Material.Text.Display2.Size">45sp</dimen>
+    <dimen name="Material.Text.Display1.Size">34sp</dimen>
+    <dimen name="Material.Text.Headline.Size">24sp</dimen>
+    <dimen name="Material.Text.Title.Size">20sp</dimen>
+    <dimen name="Material.Text.Subhead.Device.Size">16sp</dimen>
+    <dimen name="Material.Text.Subhead.Desktop.Size">15sp</dimen>
+    <dimen name="Material.Text.Body2.Device.Size">14sp</dimen>
+    <dimen name="Material.Text.Body2.Desktop.Size">13sp</dimen>
+    <dimen name="Material.Text.Body1.Device.Size">14sp</dimen>
+    <dimen name="Material.Text.Body1.Desktop.Size">13sp</dimen>
+    <dimen name="Material.Text.Caption.Size">12sp</dimen>
+    <dimen name="Material.Text.Menu.Device.Size">14sp</dimen>
+    <dimen name="Material.Text.Menu.Desktop.Size">13sp</dimen>
+    <dimen name="Material.Text.Button.Size">14sp</dimen>
+
+    <!--
+      Material Design Typography Style
+       Weight: Thin < Light < Regular < Medium < Bold
+      Reference from http://www.google.com/design/spec/style/typography.html#typography-standard-styles
+
+      Android Typeface Constants
+       Normal=0, Bold=1, BoldItalic=2, BoldItalic=3
+      Reference from http://developer.android.com/reference/android/graphics/Typeface.html#constants
+      -->
+    <!-- Light is Normal -->
+    <integer name="Material.Text.Style.Light">0</integer>
+    <!-- Regular is Bold -->
+    <integer name="Material.Text.Style.Regular">1</integer>
+    <!-- Medium is Normal -->
+    <integer name="Material.Text.Style.Medium">0</integer>
+
+    <integer name="Material.Text.Display4.Style">@integer/Material.Text.Style.Light</integer>
+    <integer name="Material.Text.Display3.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Display2.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Display1.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Headline.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Title.Style">@integer/Material.Text.Style.Medium</integer>
+    <integer name="Material.Text.Subhead.Device.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Subhead.Desktop.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Body2.Device.Style">@integer/Material.Text.Style.Medium</integer>
+    <integer name="Material.Text.Body2.Desktop.Style">@integer/Material.Text.Style.Medium</integer>
+    <integer name="Material.Text.Body1.Device.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Body1.Desktop.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Caption.Style">@integer/Material.Text.Style.Regular</integer>
+    <integer name="Material.Text.Menu.Device.Style">@integer/Material.Text.Style.Medium</integer>
+    <integer name="Material.Text.Menu.Desktop.Style">@integer/Material.Text.Style.Medium</integer>
+    <integer name="Material.Text.Button.Style">@integer/Material.Text.Style.Medium</integer>
+
+    <!--
+      Material Design Typography Color
+      Reference from http://www.google.com/design/spec/style/typography.html#typography-standard-styles
+      -->
+    <!-- For Light Theme Resource -->
+    <color name="Material.Text.Color.Primary.Light">#1C1C1C</color>
+    <color name="Material.Text.Color.Secondary.Light">#727272</color>
+    <!-- For Dark Theme Resource -->
+    <color name="Material.Text.Color.Primary.Dark">#E3E3E3</color>
+    <color name="Material.Text.Color.Secondary.Dark">#323232</color>
+
+</resources>
